@@ -5,8 +5,30 @@
 <!-- BWB 插件核心代码!!! -->
 <link href="https://bwb.js.org/start/build.css" rel="stylesheet">
 <script src="https://bwb.js.org/start/build.js"></script>
+<style>
+*{
+  padding: 0;
+  margin: 0;
+}
+.box{
+  width: 100%;
+  height: 100%;
+  margin: 100px;
+  border: 2px;
+}
+.child{
+  position: absolute;
+  width: 200px;
+  height: 150px;
+  margin: 125px 150px;
+}
+</style>
 </head>
 <body>
-<p>我喜欢你</p>
+<div class="box">
+  <div class="child">
+    <p>我喜欢你</p>
+  </div>
+</div>
 </body>
 </html>
